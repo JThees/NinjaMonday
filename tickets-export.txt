@@ -1,0 +1,2456 @@
+====================================================================================================
+NINJARMM TICKETS - FULL EXPORT FOR REVIEW
+====================================================================================================
+
+Total Tickets: 50
+Export Date: 2025-11-13T15:41:06.995Z
+Source: NinjaRMM "All tickets" board (ID: 2)
+
+====================================================================================================
+
+TICKET #1264 (1 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Huntington County Clerks Office
+Status:          Pending Vendor
+Created:         2025-11-04
+Device:          IBF-0136050
+Kiosk ID:        6050
+County:          Huntington
+Location:        Huntington County Clerk's Office
+Tags:            Supplies
+Requester:       shelley septer
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Shelley Septer
+
+Your email
+
+shelley.septer@huntington.in.us
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Huntington County Clerks Office
+
+Address
+
+201 N Jefferson St Room 201
+
+Address 2
+
+
+City
+
+Huntington
+
+State
+
+Indiana
+
+Zip
+
+46750
+
+County
+
+Huntington
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+You are receiving thi
+... (truncated)
+
+
+TICKET #1263 (2 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Fountain County Circuit Court
+Status:          Paused
+Created:         2025-10-31
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            HTI, Printer
+Requester:       Ashley Stonebraker
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Jason,
+
+Do you have instructions on how to put paper in the kiosk machine?
+
+
+*Thank you!!Ashley Stonebraker*
+*Traffic Clerk*
+*Fountain County Circuit Court*
+301 4th Street
+P.O. Box 183
+Covington IN 47932
+765-793-6230
+
+
+On Mon, Oct 20, 2025 at 4:19 PM Jason Thees <kiosk@inbarfoundation.org>
+wrote:
+
+> #---------- Please type your response above this line. ----------#
+> [image: logo] <https://ilh.rmmservice.com>
+>
+> Hi Ashley Stonebraker,
+>
+> Ticket (#1260) has been updated.
+
+... (truncated)
+
+
+TICKET #1262 (3 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Shelby County Public Library
+Status:          Paused
+Created:         2025-10-28
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Amanda White
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Amanda White
+
+Your email
+
+awhite@sscpl.lib.in.us
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Shelby County Public Library
+
+Address
+
+57 W Broadway St
+
+Address 2
+
+
+City
+
+Shelbyville
+
+State
+
+IN
+
+Zip
+
+46176
+
+County
+
+Shelby
+
+Type of Kiosk
+
+Desktop
+
+What supplies are you requesting?
+
+Paper
+
+If requesting Toner and Dr
+... (truncated)
+
+
+TICKET #1261 (4 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Carnegie Public Library of Steuben County 
+Status:          Impending User Action
+Created:         2025-10-28
+Device:          IBF-0135850
+Kiosk ID:        5850
+County:          Jackson
+Location:        Jackson County Superior Court #2
+Tags:            None
+Requester:        
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have unplugged the kiosk, plugged it back in, and confirm the problem  
+still exists.
+
+
+My kiosk is connected to the internet via Wi-Fi.
+
+Your first and last name
+
+Sonya Dorris
+
+Your email
+
+sonyad@cplsc.org
+
+Name of point of contact, if different from above
+
+
+Email of point of contact, if different from above
+
+
+Location name
+
+Carnegie Public Library of Steuben 
+... (truncated)
+
+
+TICKET #1260 (5 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Fountain County Circuit Court
+Status:          Closed
+Created:         2025-10-17
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Ashley Stonebraker
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Ashley Stonebraker
+
+Your email
+
+amstonebraker@fountaincounty.in.gov
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Fountain County Circuit Court
+
+Address
+
+301 4th St
+
+Address 2
+
+
+City
+
+Covington
+
+State
+
+Indiana
+
+Zip
+
+47932
+
+County
+
+Fountain
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+You are receiving this email becaus
+... (truncated)
+
+
+TICKET #1259 (6 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Elkhart County Courthouse 
+Status:          Impending User Action
+Created:         2025-10-17
+Device:          IBF-0136056
+Kiosk ID:        6056
+County:          Elkhart
+Location:        Elkhart County Courts
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+If it is on Wi-Fi, I know the network and password it should be connected  
+to.
+
+Your first and last name
+
+Richard Mudd
+
+Your email
+
+rmudd@elkhartcounty.com
+
+Name of point of contact, if different f
+... (truncated)
+
+
+TICKET #1258 (7 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Sullivan County Public Library
+Status:          Closed
+Created:         2025-10-16
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Rachel Winner
+
+Your email
+
+rwinner@sullivan.lib.in.us
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Sullivan County Public Library
+
+Address
+
+100 S Crowder St
+
+Address 2
+
+
+City
+
+Sullivan
+
+State
+
+Indiana
+
+Zip
+
+47882
+
+County
+
+Sullivan
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+You are receiving this email because you se
+... (truncated)
+
+
+TICKET #1257 (8 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Tipton County Courthouse 
+Status:          Closed
+Created:         2025-10-16
+Device:          IBF-0136029
+Kiosk ID:        6029
+County:          Tippecanoe
+Location:        Tippecanoe County Court House
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+I don't know how my kiosk is connected to the internet.
+
+Your first and last name
+
+Danielle Hirtzel
+
+Your email
+
+dhirtzel@tiptoncounty.in.gov
+
+Name of point of contact, if different from above
+
+
+E
+... (truncated)
+
+
+TICKET #1256 (9 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Fountain County Courthouse
+Status:          Closed
+Created:         2025-10-15
+Device:          IBF-0136054
+Kiosk ID:        6054
+County:          Fountain
+Location:        Fountain Circuit Court
+Tags:            None
+Requester:       Ashley Stonebraker
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Stacy Payton from the courts had sent a request for paper for the kiosk. Is
+that still in process?
+
+
+*Thank you!!Ashley Stonebraker*
+*Traffic Clerk*
+*Fountain County Circuit Court*
+301 4th Street
+P.O. Box 183
+Covington IN 47932
+765-793-6230
+
+
+On Mon, Mar 31, 2025 at 1:37 PM Jason Thees <kiosk@inbarfoundation.org>
+wrote:
+
+> #---------- Please type your response above this line. ----------#
+> [image: logo] <https://ilh.rmmservice.com>
+>
+> Hello,
+>
+> Ticket (#1167) has been upd
+... (truncated)
+
+
+TICKET #1255 (10 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         5854 - Allen
+Status:          Closed
+Created:         2025-10-10
+Device:          IBF-0135854
+Kiosk ID:        5854
+County:          Allen
+Location:        Allen County Superior Court - Rousseau Center
+Tags:            None
+Requester:       Alicia Strack
+Assigned To:     Jason Thees
+Priority:        NONE
+Severity:        NONE
+
+Description:
+Printer continues to jam
+
+
+TICKET #1254 (11 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Jennings County Courts 
+Status:          Closed
+Created:         2025-10-10
+Device:          IBF-0135852
+Kiosk ID:        5852
+County:          Jennings
+Location:        Jennings County Circuit Court
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Chris Doran
+
+Your email
+
+cdoran@jenningscounty-in.gov
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Jennings County Courts
+
+Address
+
+24 N Pike St
+
+Address 2
+
+
+City
+
+Vernon
+
+State
+
+IN
+
+Zip
+
+47282
+
+County
+
+Jennings
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+You are receiving this email because you set up an email notif
+... (truncated)
+
+
+TICKET #1253 (12 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - (Rush) Love Community Center 
+Status:          Impending User Action
+Created:         2025-10-10
+Device:          IBF-0135857
+Kiosk ID:        5857
+County:          Martin
+Location:        Loogootee Public Library
+Tags:            HTI
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+I don't know how my kiosk is connected to the internet.
+
+Your first and last name
+
+Audrey McVey
+
+Your email
+
+amcvey@icapcaa.org
+
+Name of point of contact, if different from above
+
+
+Email of point 
+... (truncated)
+
+
+TICKET #1252 (13 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Clark County Clerk 
+Status:          Pending Vendor
+Created:         2025-10-09
+Device:          IBF-0136030
+Kiosk ID:        6030
+County:          Clark
+Location:        Clark County Clerk's Office
+Tags:            Printer
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have unplugged the kiosk, plugged it back in, and confirm the problem  
+still exists.
+
+
+My kiosk is connected to the internet via Wi-Fi., If it is on Wi-Fi, I know  
+the network and password it should be connected to.
+
+Your first and last name
+
+Ryan Lynch
+
+Your email
+
+rlynch@clarkcounty.in.gov
+
+Name of point of contact, if different from above
+
+
+Email of point of c
+... (truncated)
+
+
+TICKET #1251 (14 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Jackson county judicial center  
+Status:          Closed
+Created:         2025-10-07
+Device:          IBF-0135850
+Kiosk ID:        5850
+County:          Jackson
+Location:        Jackson County Superior Court #2
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via Wi-Fi., If it is on Wi-Fi, I know  
+the network and password it should be connected to.
+
+Your first and last name
+
+Craig hayes
+
+Your email
+
+chayes@jacksoncoun
+... (truncated)
+
+
+TICKET #1250 (15 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         RE: Look for Paper Shipment and two other updates Hosts of Freestanding Indiana Legal Help Kiosks
+Status:          Paused
+Created:         2025-10-07
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       shelley septer
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+Hello Lucinda,
+
+Who would I contact for another carton of paper for our Kiosk?  We go through paper so fast and I feel like I never contact the right person.
+
+Thank you,
+Shelley
+
+From: Lucinda Nord <kiosk@inbarfoundation.org>
+Sent: Monday, December 19, 2022 2:04 PM
+Cc: Lucinda Nord <kiosk@inbarfoundation.org>
+Subject: Look for Paper Shipment and two other updates Hosts of F
+... (truncated)
+
+
+TICKET #1249 (16 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Jennings County Courthouse 
+Status:          Closed
+Created:         2025-10-03
+Device:          IBF-0136055
+Kiosk ID:        6055
+County:          N/A
+Location:        Jennings County Public Library
+Tags:            HTI
+Requester:       Christopher Doran
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via Wi-Fi., If it is on Wi-Fi, I know  
+the network and password it should be connected to.
+
+Your first and last name
+
+Christopher Doran
+
+Your email
+
+cdoran@jenni
+... (truncated)
+
+
+TICKET #1248 (17 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Hamilton East Public Library 
+Status:          Waiting
+Created:         2025-10-02
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            Printer, Desktop, Windows
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Desktop
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists., I have verified the printer is plugged in to an  
+outlet that is currently working., I have verified the USB cable is plugged  
+in to the back of the printer.
+
+
+I don't know how my kiosk is connected to the intern
+... (truncated)
+
+
+TICKET #1247 (18 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Vigo County Public Library  
+Status:          Closed
+Created:         2025-10-02
+Device:          IBF-0136032
+Kiosk ID:        6032
+County:          Vigo
+Location:        Vigo County Public Library
+Tags:            Printer
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via ethernet cable.
+
+Your first and last name
+
+Jordan Brown
+
+Your email
+
+jbrown@vigolibrary.org
+
+Name of point of contact, if different from above
+
+
+Email of 
+... (truncated)
+
+
+TICKET #1246 (19 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Fountain County Courthouse
+Status:          Waiting
+Created:         2025-09-25
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            Supplies
+Requester:       Staci Payton
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Staci Payton
+
+Your email
+
+spayton@fountaincounty.in.gov
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Fountain County Courthouse
+
+Address
+
+301 4th Street
+
+Address 2
+
+Circuit Court
+
+City
+
+Covington
+
+State
+
+Indiana
+
+Zip
+
+47932
+
+County
+
+Fountain
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+You are receiving this email be
+... (truncated)
+
+
+TICKET #1245 (20 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Clark County Judicial Center
+Status:          Closed
+Created:         2025-09-24
+Device:          IBF-0136030
+Kiosk ID:        6030
+County:          Clark
+Location:        Clark County Clerk's Office
+Tags:            Printer
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via Wi-Fi., If it is on Wi-Fi, I know  
+the network and password it should be connected to.
+
+Your first and last name
+
+Pamela Vonsenden
+
+Your email
+
+pvonsenden@cl
+... (truncated)
+
+
+TICKET #1244 (21 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Jackson County Public Library
+Status:          Supplies Ordered
+Created:         2025-09-24
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Kristi Gray
+
+Your email
+
+kgray@myjclibrary.org
+
+Name of recipient, if different from above
+
+Jackson County Public Library Information Services
+
+Recipient email, if different from above
+
+
+Location Name
+
+Jackson County Public Library
+
+Address
+
+303 W. 2nd Street
+
+Address 2
+
+
+City
+
+Seymour
+
+State
+
+Indiana
+
+Zip
+
+47274
+
+County
+
+Jackson
+
+Type of Kiosk
+
+Desktop
+
+What supplies are 
+... (truncated)
+
+
+TICKET #1243 (22 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         RE: Your kiosk
+Status:          Waiting
+Created:         2025-09-22
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Kay Kilgore
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+Hello Jason!
+
+We are having issues printing documents on our kiosk. I could hear them print but then started beeping. I opened the front and found two documents but the paper was jammed and I have no idea how to unjam it.
+
+Help?
+
+Kay Kilgore
+Clerk of the Posey Circuit/Superior Courts
+(812) 838-1306 Office
+(812) 838-1307 Fax
+300 Main St., Room #115
+Mt. Vernon, IN  47620
+
+
+... (truncated)
+
+
+TICKET #1242 (23 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Miami County Clerks office
+Status:          Waiting
+Created:         2025-09-22
+Device:          IBF-0136213
+Kiosk ID:        6213
+County:          Miami
+Location:        Miami County Clerk's Office
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Desktop
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working.
+
+
+My kiosk is connected to the internet via ethernet cable.
+
+Your first and last name
+
+Thaddeus
+
+Your email
+
+ttrue@miamicountyin.gov
+
+Name of point of contact, if different from above
+
+
+Email of point of contact, if different from above
+
+
+Location name
+
+Miami County Clerks office
+
+Addr
+... (truncated)
+
+
+TICKET #1241 (24 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Jennings county public library
+Status:          Closed
+Created:         2025-09-22
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response in  
+this sheet .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working.
+
+
+My kiosk is connected to the internet via ethernet cable.
+
+Your first and last name
+
+Amanda kingswell
+
+Your email
+
+amanda.kingswell@jenningslib.orf
+
+Name of point of contact, if different from above
+
+
+Email of point of contact, if different from above
+
+
+Location name
+
+Jennings cou
+... (truncated)
+
+
+TICKET #1236 (25 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Clark County Court House
+Status:          Waiting
+Created:         2025-08-28
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        Clark County Clerk's Office
+Tags:            Networking, HTI
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via Wi-Fi., If it is on Wi-Fi, I know  
+the network and password it should be connected to.
+
+Your first and last name
+
+Ryan Lynch
+
+Your email
+
+rlynch@clarkcounty.in.gov
+
+Name of
+... (truncated)
+
+
+TICKET #1235 (26 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Allen County Public Library
+Status:          Closed
+Created:         2025-08-28
+Device:          IBF-0136215
+Kiosk ID:        6215
+County:          Allen
+Location:        Allen County Public Library
+Tags:            Printer, Desktop
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Desktop
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists., I have verified the printer is plugged in to an  
+outlet that is currently working., I have verified the USB cable is plugged  
+in to the back of the printer.
+
+
+My kiosk is connected to the internet via ethernet cable.
+
+Your fir
+... (truncated)
+
+
+TICKET #1234 (27 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Frankfort Community Public Library
+Status:          Waiting
+Created:         2025-08-27
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        Clinton Public Library
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via ethernet cable.
+
+Your first and last name
+
+Daniel Robertson
+
+Your email
+
+drobertson@myfcpl.org
+
+Name of point of contact, if different from above
+
+
+Email of point of conta
+... (truncated)
+
+
+TICKET #1233 (28 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Bicknell-Vigo Township Public Library
+Status:          Supplies Ordered
+Created:         2025-08-26
+Device:          IBF-0135860
+Kiosk ID:        5860
+County:          Knox
+Location:        Bicknell-Vigo Township Public Library
+Tags:            Supplies
+Requester:       Caleb Sydow
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Caleb Sydow
+
+Your email
+
+csydow@bicknell-vigo.lib.in.us
+
+Name of recipient, if different from above
+
+Bicknell-Vigo Township Public Library
+
+Recipient email, if different from above
+
+csydow@bicknell-vigo.lib.in.us
+
+Location Name
+
+Bicknell-Vigo Township Public Library
+
+Address
+
+201 W. 2nd St.
+
+Address 2
+
+
+City
+
+Bicknell
+
+State
+
+IN
+
+Zip
+
+47512
+
+County
+
+Knox
+
+Type of Kiosk
+
+Fre
+... (truncated)
+
+
+TICKET #1232 (29 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Jackson county superior court 2
+Status:          Closed
+Created:         2025-08-26
+Device:          IBF-0135850
+Kiosk ID:        5850
+County:          Jackson
+Location:        Jackson County Superior Court #2
+Tags:            Printer
+Requester:       Craig Hayes
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via Wi-Fi., If it is on Wi-Fi, I know  
+the network and password it should be connected to.
+
+Your first and last name
+
+Craig Hayes
+
+Your email
+
+chayes@jacksoncounty.in.org
+
+Name
+... (truncated)
+
+
+TICKET #1228 (30 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         FW: Legal kiosk
+Status:          Waiting
+Created:         2025-08-15
+Device:          IBF-0136250
+Kiosk ID:        6250
+County:          Marshall
+Location:        Marshall County Clerk's Office
+Tags:            Networking, HTI
+Requester:       Jenny Bennitt
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+The error below is on our legal kiosk.  Can you please advise on what we need to do to reconnect to the internet?
+
+Thanks -
+Jenny Bennitt
+Marshall County Clerk
+211 W. Madison Street
+Plymouth, IN  46563
+574.936.8922
+
+
+
+[cid:fa4f0c5a-9ce6-449c-9785-0c07a6990a67@namprd04.prod.outlook.com]
+
+
+TICKET #1227 (31 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Hancock County Clerk
+Status:          Closed
+Created:         2025-08-15
+Device:          IBF-0136236
+Kiosk ID:        6236
+County:          Hancock
+Location:        Hancock County Court
+Tags:            Printer, Desktop
+Requester:       Form Notification
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Desktop
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists., I have verified the printer is plugged in to an  
+outlet that is currently working., I have verified the USB cable is plugged  
+in to the back of the printer.
+
+
+My kiosk is connected to the internet via ethernet cable.
+
+Your fir
+... (truncated)
+
+
+TICKET #1226 (32 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - 301 N College Ave
+Status:          Supplies Ordered
+Created:         2025-08-14
+Device:          IBF-0136226
+Kiosk ID:        6226
+County:          Monroe
+Location:        Monroe County Circuit Court in Monroe County Justice Building
+Tags:            Supplies
+Requester:       Holly Helms
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Holly
+
+Your email
+
+hhelms@co.monroe.in.us
+
+Name of recipient, if different from above
+
+Monroe County Court
+
+Recipient email, if different from above
+
+
+Location Name
+
+301 N College Ave
+
+Address
+
+Room 210
+
+Address 2
+
+
+City
+
+Bloomington
+
+State
+
+Indiana
+
+Zip
+
+47404
+
+County
+
+Monroe
+
+Type of Kiosk
+
+Desktop
+
+What supplies are you requesting?
+
+Paper
+
+If requesting Toner and Dr
+... (truncated)
+
+
+TICKET #1225 (33 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - 301 N College Ave., Room 210
+Status:          Closed
+Created:         2025-08-14
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Form Notification
+Assigned To:     N/A
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Holly
+
+Your email
+
+hhelms@co.monroe.in.us
+
+Name of recipient, if different from above
+
+Monroe County Courts
+
+Recipient email, if different from above
+
+
+Location Name
+
+301 N College Ave., Room 210
+
+Address
+
+Room 210
+
+Address 2
+
+
+City
+
+Bloomington
+
+State
+
+Indiana
+
+Zip
+
+47404
+
+County
+
+Monroe
+
+Type of Kiosk
+
+Desktop
+
+What supplies are you requesting?
+
+Toner
+
+If requesting 
+... (truncated)
+
+
+TICKET #1224 (34 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Monroe County courts
+Status:          Closed
+Created:         2025-08-12
+Device:          IBF-0136226
+Kiosk ID:        6226
+County:          Monroe
+Location:        Monroe County Circuit Court in Monroe County Justice Building
+Tags:            Supplies, HTI
+Requester:       Holly Helms
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Desktop
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists., I have verified the printer is plugged in to an  
+outlet that is currently working., I have verified the USB cable is plugged  
+in to the back of the printer.
+
+
+My kiosk is connected to the internet via ethernet cable., My kiosk i
+... (truncated)
+
+
+TICKET #1223 (35 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Pike County Public Library
+Status:          Supplies Ordered
+Created:         2025-08-11
+Device:          IBF-0135856
+Kiosk ID:        5856
+County:          Pike
+Location:        Pike County Public Library
+Tags:            Supplies
+Requester:       Stephanie Rawlins
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Stephanie Rawlins
+
+Your email
+
+director@pikeco.lib.in.us
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Pike County Public Library
+
+Address
+
+1008 Maple St
+
+Address 2
+
+
+City
+
+Petersburg
+
+State
+
+IN
+
+Zip
+
+47567
+
+County
+
+Pike
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+You are receiving this email because you set up an ema
+... (truncated)
+
+
+TICKET #1222 (36 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Allen County Courthouse
+Status:          Pending Vendor
+Created:         2025-08-07
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Alicia Strack
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Freestanding
+
+
+I have unplugged the kiosk, plugged it back in, and confirm the problem  
+still exists.
+
+
+My kiosk is connected to the internet via ethernet cable., My kiosk is  
+connected to the internet via Wi-Fi.
+
+Your first and last name
+
+Alicia Strack
+
+Your email
+
+alicia.strack@allensuperiorcourt.us
+
+Name of point of contact, if different from above
+
+
+Email of point of contact, if different fro
+... (truncated)
+
+
+TICKET #1221 (37 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         paper
+Status:          Closed
+Created:         2025-08-07
+Device:          IBF-0136054
+Kiosk ID:        6054
+County:          Fountain
+Location:        Fountain Circuit Court
+Tags:            Supplies
+Requester:       Staci Payton
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+
+Hello
+Our Fountain County Kiosk is out of paper and I am not sure what to do to order more.
+--
+Thank You,
+
+Staci Payton
+Court Administrative Assistant
+
+
+TICKET #1219 (38 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Fountain County Kiosk Paper
+Status:          Closed
+Created:         2025-08-05
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Staci Payton
+Assigned To:     N/A
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+
+Good Afternoon,
+
+Our Kiosk needs more printer paper.  I am sorry that I can't recall how to order more paper.
+
+--
+Thank You,
+
+Staci Payton
+Court Administrative Assistant
+
+
+TICKET #1218 (39 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Marshall County Clerk's Office
+Status:          Supplies Ordered
+Created:         2025-08-04
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        Marshall County Clerk's Office
+Tags:            None
+Requester:       Jenny Bennitt
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Jenny Bennitt
+
+Your email
+
+jbennitt@co.marshall.in.us
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Marshall County Clerk's Office
+
+Address
+
+211 W. Madison Street
+
+Address 2
+
+
+City
+
+Plymouth
+
+State
+
+IN
+
+Zip
+
+46563
+
+County
+
+Marshall
+
+Type of Kiosk
+
+Desktop
+
+What supplies are you requesting?
+
+Toner
+
+If requesting T
+... (truncated)
+
+
+TICKET #1217 (40 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Bartholomew County Public Library
+Status:          Supplies Ordered
+Created:         2025-07-30
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        Bartholomew County Public Library
+Tags:            None
+Requester:       Sandy Allman
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Sandy Allman
+
+Your email
+
+sallman@mybcpl.org
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Bartholomew County Public Library
+
+Address
+
+536 5th Street
+
+Address 2
+
+
+City
+
+Columbus
+
+State
+
+IN
+
+Zip
+
+47201
+
+County
+
+Bartholomew
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+You are receiving this email because you set up an em
+... (truncated)
+
+
+TICKET #1216 (41 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Frankfort Community Public Community
+Status:          Waiting
+Created:         2025-07-29
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via ethernet cable.
+
+Your first and last name
+
+Daniel Robertson
+
+Your email
+
+drobertson@myfcpl.org
+
+Name of point of contact, if different from above
+
+
+Email of point of conta
+... (truncated)
+
+
+TICKET #1215 (42 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Clinton Public Library
+Status:          Waiting
+Created:         2025-07-29
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Desktop
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists., I have verified the printer is plugged in to an  
+outlet that is currently working., I have verified the USB cable is plugged  
+in to the back of the printer.
+
+
+My kiosk is connected to the internet via ethernet cable.
+
+Your fir
+... (truncated)
+
+
+TICKET #1214 (43 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Printer toner
+Status:          Closed
+Created:         2025-07-28
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Darlene Marquardt
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+Good Morning.
+
+We need a toner for our kiosk.  It is completely out, and I realized we did not have any spare toners.  Is this who I contact to get another toner?
+
+Thank you.
+
+DARLENE MARQUARDT
+1st Deputy Clerk/Bookkeeper
+Marshall County Clerk's Office
+211 W. Madison Street
+Plymouth, IN 46563
+(574) 935-8717
+(574) 936-8893 (fax)
+darm@co.marshall.in.us<mailto:darm@co.marsh
+... (truncated)
+
+
+TICKET #1213 (44 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Knox County Magistrate
+Status:          Supplies Ordered
+Created:         2025-07-21
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Magistrate Shawna Webster
+
+Your email
+
+swebster@knoxcounty.in.gov
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+Knox County Magistrate
+
+Address
+
+111 N. 7th Street; 3rd Floor
+
+Address 2
+
+
+City
+
+Vincennes
+
+State
+
+Indiana
+
+Zip
+
+47591
+
+County
+
+Knox
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+You are receiving this email b
+... (truncated)
+
+
+TICKET #1212 (45 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         RE: Connect Kiosk to wifi
+Status:          Closed
+Created:         2025-07-18
+Device:          IBF-0136044
+Kiosk ID:        6044
+County:          Marion
+Location:        Center Township Small Claims Court (Marion County)
+Tags:            Networking, Firewall
+Requester:       Anthony Robinson III
+Assigned To:     Jason Thees
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+Understood.  Yes, the company is to program the machine injunction with Center Township.  Not sure when this will take place, but it seems that we are ready on our end.  Just waiting for the machine and the technician to schedule time for delivery and set-up.
+
+
+Sincerely,
+
+The Honorable Brenda A. Roper
+Center Township Small Claims Court
+300 E. Fall Creek Parkway North Drive, S
+... (truncated)
+
+
+TICKET #1211 (46 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Connect Kiosk to wifi
+Status:          Closed
+Created:         2025-07-18
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Anthony Robinson III
+Assigned To:     N/A
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+
+Hello!
+
+Our Kiosk in the building needs to be connected to a different wifi network.
+
+What do you guys need from me in order to get this done?
+
+Anthony Robinson, III
+IT Coordinator | Center Township of Marion County, Trustee LaDonna Freeman
+Phone 317.633.3610 x. 3246 | Fax 317.920.0480 | Mobile 317.987.2845
+Web www.centergov.org | Email anthony.robinson@centergov.org
+
+
+
+... (truncated)
+
+
+TICKET #1210 (47 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - William H. Miller Law Library
+Status:          Supplies Ordered
+Created:         2025-07-17
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Weston, Kathleen
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+kathleen weston
+
+Your email
+
+kweston@vanderburghgov.org
+
+Name of recipient, if different from above
+
+
+Recipient email, if different from above
+
+
+Location Name
+
+William H. Miller Law Library
+
+Address
+
+825 Sycamore Street, Suite 207
+
+Address 2
+
+City-County Courts Building
+
+City
+
+Evansville
+
+State
+
+IN
+
+Zip
+
+47708
+
+County
+
+Vanderburgh
+
+Type of Kiosk
+
+Freestanding
+
+
+Paper
+
+
+... (truncated)
+
+
+TICKET #1209 (48 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Troubleshooting - Montgomery County Courthouse
+Status:          Waiting
+Created:         2025-07-16
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Form Notification
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Basic Troubleshooting Checklist) has received 1 new response .
+
+
+Freestanding
+
+
+I have verified the kiosk is plugged in to an outlet that is currently  
+working., I have unplugged the kiosk, plugged it back in, and confirm the  
+problem still exists.
+
+
+My kiosk is connected to the internet via Wi-Fi.
+
+Your first and last name
+
+Angie Peebles
+
+Your email
+
+angie.peebles@montgomerycounty.in.gov
+
+Name of point of contact, if different from above
+
+
+Email of point of c
+... (truncated)
+
+
+TICKET #1207 (49 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Kiosk Supply Order - Allen County Courthouse Annex
+Status:          Supplies Ordered
+Created:         2025-07-08
+Device:          N/A
+Kiosk ID:        N/A
+County:          N/A
+Location:        N/A
+Tags:            None
+Requester:       Hannah Dawson
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+Your form(Kiosk Supply Order Form) has received 1 new response .
+
+Your Name
+
+Hannah Dawson
+
+Your email
+
+hannah.dawson@allencircuitcourt.us
+
+Name of recipient, if different from above
+
+Di-Ann Stewart
+
+Recipient email, if different from above
+
+di-ann.stewart@allencircuitcourt.us
+
+Location Name
+
+Allen County Courthouse Annex
+
+Address
+
+1 W. Superior Street
+
+Address 2
+
+2nd floor
+
+City
+
+Fort Wayne
+
+State
+
+IN
+
+Zip
+
+46802
+
+County
+
+Allen
+
+Type of Kiosk
+
+Des
+... (truncated)
+
+
+TICKET #1206 (50 of 50)
+----------------------------------------------------------------------------------------------------
+Summary:         Vigo County Public Library kiosk issues
+Status:          Pending Vendor
+Created:         2025-06-30
+Device:          IBF-0136032
+Kiosk ID:        6032
+County:          Vigo
+Location:        Vigo County Public Library
+Tags:            Printer
+Requester:       Jeanette Bouchie
+Assigned To:     Finished Finished
+Priority:        MEDIUM
+Severity:        MODERATE
+
+Description:
+[EXTERNAL EMAIL] DO NOT CLICK links or attachments unless you recognize the sender and know the content is safe.
+
+Hello,
+
+The Indiana Legal Help kiosk at the Vigo County Public Library, located at 680 Poplar Street, Terre Haute, IN 47807, is not working properly. There is a significant paper jam and our Systems team believe the head assembly will need to be taken off to resolve the issue.
+
+Thank you for your assistance.  Our machine has grown increasingly popular.
+
+Jeanette Bouchie (she/
+... (truncated)
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+Total tickets:               50
+Tickets with kiosk ID:       25
+Tickets without kiosk ID:    25
+
+Tickets with kiosk ID will have county/location enriched from ILH Kiosks board.
+Tickets without kiosk ID will use the location field from NinjaRMM (if available).
+
+====================================================================================================

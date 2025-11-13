@@ -1,0 +1,64 @@
+{
+  "monday_columns": {
+    "kiosk": {
+      "id": "text_mkx0wqmq",
+      "title": "Kiosk",
+      "description": "Short kiosk ID (e.g., 6058)"
+    },
+    "date": {
+      "id": "date4",
+      "title": "Date",
+      "description": "Ticket creation date"
+    },
+    "county": {
+      "id": "text_mkwzhc6k",
+      "title": "County",
+      "description": "County name"
+    },
+    "location": {
+      "id": "text_mkwzt5ce",
+      "title": "Location",
+      "description": "Location/facility name"
+    },
+    "core_issue": {
+      "id": "tag_mkwzqtky",
+      "title": "Core issue",
+      "description": "Tags for categorizing issues"
+    },
+    "status": {
+      "id": "status",
+      "title": "Status",
+      "description": "Ticket status"
+    },
+    "ninja_ticket_id": {
+      "id": "text_mkxkpphv",
+      "title": "Ninja Ticket ID",
+      "description": "NinjaRMM ticket ID (primary key)"
+    }
+  },
+  "ninja_attributes": {
+    "kiosk_id": {
+      "id": 54,
+      "description": "Kiosk ID attribute in NinjaRMM"
+    },
+    "county": {
+      "id": 10,
+      "description": "County attribute in NinjaRMM"
+    }
+  },
+  "status_mapping": {
+    "Closed": "Done",
+    "Waiting": "Stuck",
+    "Supplies Ordered": "Done",
+    "Pending Vendor": "Working on it",
+    "Paused": "Working BUT",
+    "Impending User Action": "Working on it"
+  },
+  "sync_settings": {
+    "min_create_date": "2025-07-01T00:00:00Z",
+    "ninja_board_ids": [2],
+    "delay_between_items_ms": 500,
+    "delay_between_updates_ms": 500,
+    "retry_attempts": 3
+  }
+}

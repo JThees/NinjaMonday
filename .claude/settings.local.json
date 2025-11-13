@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(npm install)",
+      "WebFetch(domain:app.ninjarmm.com)",
+      "WebSearch",
+      "WebFetch(domain:www.ninjaone.com)",
+      "Bash(npm run explore:*)",
+      "Bash(node:*)",
+      "WebFetch(domain:support.monday.com)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:gist.github.com)",
+      "Bash(TOKEN=\"I-Nkofh0wQYywC39dgdgJP8AhQN2hyi29ZKWcHnIgXI.mzPDvho7U5q2WVSorb4G5tjS43-Rh8XZeHCw6UD3MN0\")",
+      "Bash(npm run sync:dry-run:*)",
+      "Bash(npm run sync:test:*)",
+      "WebFetch(domain:developer.monday.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

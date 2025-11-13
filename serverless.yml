@@ -1,0 +1,57 @@
+# Serverless Framework Configuration
+# Deploy with: serverless deploy
+
+service: ninjamonday-sync
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  timeout: 300 # 5 minutes
+  memorySize: 512
+
+  # Environment variables (set these in AWS Systems Manager Parameter Store)
+  environment:
+    NINJA_CLIENT_ID: ${ssm:/ninjamonday/ninja_client_id}
+    NINJA_CLIENT_SECRET: ${ssm:/ninjamonday/ninja_client_secret}
+    MONDAY_API_TOKEN: ${ssm:/ninjamonday/monday_api_token}
+    MONDAY_KIOSKS_BOARD_ID: ${ssm:/ninjamonday/monday_kiosks_board_id}
+    MONDAY_TICKETS_BOARD_ID: ${ssm:/ninjamonday/monday_tickets_board_id}
+
+functions:
+  # Run full sync (creates new items)
+  sync:
+    handler: src/lambda/sync-handler.handler
+    events:
+      # Run every day at 9 AM UTC (4 AM EST)
+      - schedule: cron(0 9 * * ? *)
+    description: Sync new tickets from NinjaRMM to Monday.com
+
+  # Run update sync (updates existing items)
+  update:
+    handler: src/lambda/update-handler.handler
+    events:
+      # Run every 6 hours
+      - schedule: rate(6 hours)
+    description: Update existing Monday items with latest NinjaRMM data
+
+  # Manual invoke via API Gateway
+  syncApi:
+    handler: src/lambda/sync-handler.handler
+    events:
+      - http:
+          path: sync
+          method: post
+          cors: true
+    description: Manual trigger for sync via API
+
+plugins:
+  - serverless-offline
+
+package:
+  exclude:
+    - .git/**
+    - .env
+    - node_modules/**
+    - '*.md'
+    - test/**

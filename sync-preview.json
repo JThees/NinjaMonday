@@ -1,0 +1,480 @@
+{
+  "timestamp": "2025-11-13T16:16:11.111Z",
+  "stats": {
+    "total": 39,
+    "success": 43,
+    "skipped": 0,
+    "errors": 0,
+    "warnings": 13
+  },
+  "itemsToCreate": [
+    {
+      "name": "22",
+      "columnValues": {
+        "text_mkxkpphv": "1264",
+        "text_mkx0wqmq": "6050",
+        "date4": "2025-11-04",
+        "text_mkwzhc6k": "Huntington",
+        "text_mkwzt5ce": "Huntington County Clerk's Office",
+        "status": "Working on it"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Huntington County Clerks Office"
+    },
+    {
+      "name": "23",
+      "columnValues": {
+        "text_mkxkpphv": "1263",
+        "text_mkx0wqmq": "",
+        "date4": "2025-10-31",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Working BUT"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Fountain County Circuit Court"
+    },
+    {
+      "name": "24",
+      "columnValues": {
+        "text_mkxkpphv": "1262",
+        "text_mkx0wqmq": "",
+        "date4": "2025-10-28",
+        "text_mkwzhc6k": "Shelby",
+        "text_mkwzt5ce": "",
+        "status": "Working BUT"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Shelby County Public Library"
+    },
+    {
+      "name": "25",
+      "columnValues": {
+        "text_mkxkpphv": "1261",
+        "text_mkx0wqmq": "5850",
+        "date4": "2025-10-28",
+        "text_mkwzhc6k": "Jackson",
+        "text_mkwzt5ce": "Jackson County Superior Court #2",
+        "status": "Working on it"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Carnegie Public Library of Steuben County "
+    },
+    {
+      "name": "26",
+      "columnValues": {
+        "text_mkxkpphv": "1260",
+        "text_mkx0wqmq": "",
+        "date4": "2025-10-17",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Fountain County Circuit Court"
+    },
+    {
+      "name": "27",
+      "columnValues": {
+        "text_mkxkpphv": "1259",
+        "text_mkx0wqmq": "6056",
+        "date4": "2025-10-17",
+        "text_mkwzhc6k": "Elkhart",
+        "text_mkwzt5ce": "Elkhart County Courts",
+        "status": "Working on it"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Elkhart County Courthouse "
+    },
+    {
+      "name": "28",
+      "columnValues": {
+        "text_mkxkpphv": "1258",
+        "text_mkx0wqmq": "",
+        "date4": "2025-10-16",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Sullivan County Public Library"
+    },
+    {
+      "name": "29",
+      "columnValues": {
+        "text_mkxkpphv": "1257",
+        "text_mkx0wqmq": "6029",
+        "date4": "2025-10-16",
+        "text_mkwzhc6k": "Tippecanoe",
+        "text_mkwzt5ce": "Tippecanoe County Court House",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Tipton County Courthouse "
+    },
+    {
+      "name": "30",
+      "columnValues": {
+        "text_mkxkpphv": "1256",
+        "text_mkx0wqmq": "6054",
+        "date4": "2025-10-15",
+        "text_mkwzhc6k": "Fountain",
+        "text_mkwzt5ce": "Fountain Circuit Court",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Fountain County Courthouse"
+    },
+    {
+      "name": "31",
+      "columnValues": {
+        "text_mkxkpphv": "1255",
+        "text_mkx0wqmq": "5854",
+        "date4": "2025-10-10",
+        "text_mkwzhc6k": "Allen",
+        "text_mkwzt5ce": "Allen County Superior Court - Rousseau Center",
+        "status": "Done"
+      },
+      "ninjaSummary": "5854 - Allen"
+    },
+    {
+      "name": "32",
+      "columnValues": {
+        "text_mkxkpphv": "1254",
+        "text_mkx0wqmq": "5852",
+        "date4": "2025-10-10",
+        "text_mkwzhc6k": "Jennings",
+        "text_mkwzt5ce": "Jennings County Circuit Court",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Jennings County Courts "
+    },
+    {
+      "name": "33",
+      "columnValues": {
+        "text_mkxkpphv": "1253",
+        "text_mkx0wqmq": "5857",
+        "date4": "2025-10-10",
+        "text_mkwzhc6k": "Martin",
+        "text_mkwzt5ce": "Loogootee Public Library",
+        "status": "Working on it"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - (Rush) Love Community Center "
+    },
+    {
+      "name": "34",
+      "columnValues": {
+        "text_mkxkpphv": "1252",
+        "text_mkx0wqmq": "6030",
+        "date4": "2025-10-09",
+        "text_mkwzhc6k": "Clark",
+        "text_mkwzt5ce": "Clark County Clerk's Office",
+        "status": "Working on it"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Clark County Clerk "
+    },
+    {
+      "name": "35",
+      "columnValues": {
+        "text_mkxkpphv": "1251",
+        "text_mkx0wqmq": "5850",
+        "date4": "2025-10-07",
+        "text_mkwzhc6k": "Jackson",
+        "text_mkwzt5ce": "Jackson County Superior Court #2",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Jackson county judicial center  "
+    },
+    {
+      "name": "36",
+      "columnValues": {
+        "text_mkxkpphv": "1250",
+        "text_mkx0wqmq": "",
+        "date4": "2025-10-07",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Working BUT"
+      },
+      "ninjaSummary": "RE: Look for Paper Shipment and two other updates Hosts of Freestanding Indiana Legal Help Kiosks"
+    },
+    {
+      "name": "37",
+      "columnValues": {
+        "text_mkxkpphv": "1249",
+        "text_mkx0wqmq": "6055",
+        "date4": "2025-10-03",
+        "text_mkwzhc6k": "Jennings",
+        "text_mkwzt5ce": "Jennings County Public Library",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Jennings County Courthouse "
+    },
+    {
+      "name": "38",
+      "columnValues": {
+        "text_mkxkpphv": "1248",
+        "text_mkx0wqmq": "",
+        "date4": "2025-10-02",
+        "text_mkwzhc6k": "Hamilton",
+        "text_mkwzt5ce": "",
+        "status": "Stuck"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Hamilton East Public Library "
+    },
+    {
+      "name": "39",
+      "columnValues": {
+        "text_mkxkpphv": "1247",
+        "text_mkx0wqmq": "6032",
+        "date4": "2025-10-02",
+        "text_mkwzhc6k": "Vigo",
+        "text_mkwzt5ce": "Vigo County Public Library",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Vigo County Public Library  "
+    },
+    {
+      "name": "40",
+      "columnValues": {
+        "text_mkxkpphv": "1246",
+        "text_mkx0wqmq": "",
+        "date4": "2025-09-25",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Stuck"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Fountain County Courthouse"
+    },
+    {
+      "name": "41",
+      "columnValues": {
+        "text_mkxkpphv": "1245",
+        "text_mkx0wqmq": "6030",
+        "date4": "2025-09-24",
+        "text_mkwzhc6k": "Clark",
+        "text_mkwzt5ce": "Clark County Clerk's Office",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Clark County Judicial Center"
+    },
+    {
+      "name": "42",
+      "columnValues": {
+        "text_mkxkpphv": "1244",
+        "text_mkx0wqmq": "",
+        "date4": "2025-09-24",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Jackson County Public Library"
+    },
+    {
+      "name": "43",
+      "columnValues": {
+        "text_mkxkpphv": "1243",
+        "text_mkx0wqmq": "",
+        "date4": "2025-09-22",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Stuck"
+      },
+      "ninjaSummary": "RE: Your kiosk"
+    },
+    {
+      "name": "44",
+      "columnValues": {
+        "text_mkxkpphv": "1242",
+        "text_mkx0wqmq": "6213",
+        "date4": "2025-09-22",
+        "text_mkwzhc6k": "Miami",
+        "text_mkwzt5ce": "Miami County Clerk's Office",
+        "status": "Stuck"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Miami County Clerks office"
+    },
+    {
+      "name": "45",
+      "columnValues": {
+        "text_mkxkpphv": "1241",
+        "text_mkx0wqmq": "",
+        "date4": "2025-09-22",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Jennings county public library"
+    },
+    {
+      "name": "46",
+      "columnValues": {
+        "text_mkxkpphv": "1236",
+        "text_mkx0wqmq": "",
+        "date4": "2025-08-28",
+        "text_mkwzhc6k": "Clark",
+        "text_mkwzt5ce": "Clark County Clerk's Office",
+        "status": "Stuck"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Clark County Court House"
+    },
+    {
+      "name": "47",
+      "columnValues": {
+        "text_mkxkpphv": "1235",
+        "text_mkx0wqmq": "6215",
+        "date4": "2025-08-28",
+        "text_mkwzhc6k": "Allen",
+        "text_mkwzt5ce": "Allen County Public Library",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Allen County Public Library"
+    },
+    {
+      "name": "48",
+      "columnValues": {
+        "text_mkxkpphv": "1234",
+        "text_mkx0wqmq": "",
+        "date4": "2025-08-27",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "Clinton Public Library",
+        "status": "Stuck"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Frankfort Community Public Library"
+    },
+    {
+      "name": "49",
+      "columnValues": {
+        "text_mkxkpphv": "1233",
+        "text_mkx0wqmq": "5860",
+        "date4": "2025-08-26",
+        "text_mkwzhc6k": "Knox",
+        "text_mkwzt5ce": "Bicknell-Vigo Township Public Library",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Bicknell-Vigo Township Public Library"
+    },
+    {
+      "name": "50",
+      "columnValues": {
+        "text_mkxkpphv": "1232",
+        "text_mkx0wqmq": "5850",
+        "date4": "2025-08-26",
+        "text_mkwzhc6k": "Jackson",
+        "text_mkwzt5ce": "Jackson County Superior Court #2",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Jackson county superior court 2"
+    },
+    {
+      "name": "51",
+      "columnValues": {
+        "text_mkxkpphv": "1228",
+        "text_mkx0wqmq": "6250",
+        "date4": "2025-08-15",
+        "text_mkwzhc6k": "Marshall",
+        "text_mkwzt5ce": "Marshall County Clerk's Office",
+        "status": "Stuck"
+      },
+      "ninjaSummary": "FW: Legal kiosk"
+    },
+    {
+      "name": "52",
+      "columnValues": {
+        "text_mkxkpphv": "1227",
+        "text_mkx0wqmq": "6236",
+        "date4": "2025-08-15",
+        "text_mkwzhc6k": "Hancock",
+        "text_mkwzt5ce": "Hancock County Court",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Hancock County Clerk"
+    },
+    {
+      "name": "53",
+      "columnValues": {
+        "text_mkxkpphv": "1226",
+        "text_mkx0wqmq": "6226",
+        "date4": "2025-08-14",
+        "text_mkwzhc6k": "Monroe",
+        "text_mkwzt5ce": "Monroe County Circuit Court in Monroe County Justice Building",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - 301 N College Ave"
+    },
+    {
+      "name": "54",
+      "columnValues": {
+        "text_mkxkpphv": "1225",
+        "text_mkx0wqmq": "",
+        "date4": "2025-08-14",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - 301 N College Ave., Room 210"
+    },
+    {
+      "name": "55",
+      "columnValues": {
+        "text_mkxkpphv": "1224",
+        "text_mkx0wqmq": "6226",
+        "date4": "2025-08-12",
+        "text_mkwzhc6k": "Monroe",
+        "text_mkwzt5ce": "Monroe County Circuit Court in Monroe County Justice Building",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Monroe County courts"
+    },
+    {
+      "name": "56",
+      "columnValues": {
+        "text_mkxkpphv": "1223",
+        "text_mkx0wqmq": "5856",
+        "date4": "2025-08-11",
+        "text_mkwzhc6k": "Pike",
+        "text_mkwzt5ce": "Pike County Public Library",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Pike County Public Library"
+    },
+    {
+      "name": "57",
+      "columnValues": {
+        "text_mkxkpphv": "1222",
+        "text_mkx0wqmq": "",
+        "date4": "2025-08-07",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Working on it"
+      },
+      "ninjaSummary": "Kiosk Troubleshooting - Allen County Courthouse"
+    },
+    {
+      "name": "58",
+      "columnValues": {
+        "text_mkxkpphv": "1221",
+        "text_mkx0wqmq": "6054",
+        "date4": "2025-08-07",
+        "text_mkwzhc6k": "Fountain",
+        "text_mkwzt5ce": "Fountain Circuit Court",
+        "status": "Done"
+      },
+      "ninjaSummary": "paper"
+    },
+    {
+      "name": "59",
+      "columnValues": {
+        "text_mkxkpphv": "1219",
+        "text_mkx0wqmq": "",
+        "date4": "2025-08-05",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "",
+        "status": "Done"
+      },
+      "ninjaSummary": "Fountain County Kiosk Paper"
+    },
+    {
+      "name": "60",
+      "columnValues": {
+        "text_mkxkpphv": "1218",
+        "text_mkx0wqmq": "",
+        "date4": "2025-08-04",
+        "text_mkwzhc6k": "",
+        "text_mkwzt5ce": "Marshall County Clerk's Office",
+        "status": "Done"
+      },
+      "ninjaSummary": "Kiosk Supply Order - Marshall County Clerk's Office"
+    }
+  ]
+}

@@ -41,18 +41,128 @@ See `.env.example` for the required format. Copy it to `.env` and fill in your a
 - Ninja Status → Monday "Status"
 - County/Location from ILH Kiosks board lookup → Monday "County" and "Location"
 
-**Development Phases:**
-1. **API Exploration:** Connect to both APIs and verify exact field names
-2. **Dry Run Mode:** Build sync logic with preview/logging only (no actual Monday item creation)
-3. **Implementation:** Full sync with error handling
-4. **Testing:** Verify dashboard charts populate correctly
+## Project Status
+
+✅ **COMPLETED** - All phases complete and tested
+
+## Usage
+
+### Available Scripts
+
+```bash
+# Preview what will be synced (no changes to Monday.com)
+npm run sync:dry-run
+
+# Test sync with 3 items only
+npm run sync:test
+
+# Full sync of all tickets
+npm run sync
+
+# Update existing Monday items with latest NinjaRMM data
+npm run sync:update
+
+# View/manage field mappings and configuration
+npm run config
+npm run config add-status "New Status" "Working on it"
+npm run config update-date 2025-06-01T00:00:00Z
+```
+
+### How It Works
+
+1. **Date Filtering**: Only syncs tickets created on or after **July 1, 2025** (configurable via `npm run config`)
+2. **Duplicate Detection**: Uses "Ninja Ticket ID" column to avoid creating duplicates
+3. **Tag Auto-Creation**: Automatically creates Monday.com tags from NinjaRMM tags using `create_or_get_tag` mutation
+4. **County Fallback**: Extracts county from NinjaRMM attribute values when kiosk not found in ILH Kiosks board
+5. **Consecutive Numbering**: Items are named with consecutive integers (e.g., "22", "23", "24")
+6. **Rate Limiting**: Built-in retry logic with exponential backoff for API rate limits
+
+### First-Time Setup
+
+1. Copy `.env.example` to `.env` and fill in your credentials
+2. Run `npm install` to install dependencies
+3. Run `npm run sync:dry-run` to preview what will be synced
+4. Run `npm run sync:test` to test with 3 items
+5. Run `npm run sync` for full sync
+
+### Synced Data
+
+**From NinjaRMM:**
+- Ticket ID → Ninja Ticket ID column
+- Device (IBF-0136058) → Kiosk column (6058)
+- Creation date → Date column
+- Tags → Core issue column (auto-created)
+- Status → Status column (mapped)
+- Location → Location column
+
+**Enriched from ILH Kiosks Board:**
+- County (looked up by kiosk ID)
+- Location (looked up by kiosk ID, overwrites Ninja location if found)
+
+**Status Mapping:**
+- Closed → Done
+- Waiting → Stuck
+- Supplies Ordered → Done
+- Pending Vendor → Working on it
+- Paused → Working BUT
+- Impending User Action → Working on it
+- *(all others default to "Working on it")*
+
+### Configuration Management
+
+The configuration tool allows you to manage field mappings without editing code:
+
+```bash
+# View current configuration
+npm run config
+
+# Add a new status mapping
+npm run config add-status "In Progress" "Working on it"
+
+# Remove a status mapping
+npm run config remove-status "Old Status"
+
+# Update Monday column ID (if column IDs change)
+npm run config update-column kiosk text_NEW_ID
+
+# Update minimum sync date
+npm run config update-date 2025-06-01T00:00:00Z
+```
+
+Configuration is stored in `config/field-mappings.json`.
+
+### Automation & Deployment
+
+**Serverless Deployment** (Recommended):
+- See `DEPLOYMENT.md` for full guide
+- Supports AWS Lambda, Azure Functions, Google Cloud Run
+- Pre-configured in `serverless.yml` for AWS Lambda
+- Runs daily sync at 9 AM UTC, updates every 6 hours
+
+**Local Automation**:
+- **Windows:** Use Task Scheduler to run `npm run sync` daily
+- **Linux/Mac:** Use cron to run `npm run sync` daily
+- **Docker:** Use container orchestration (Kubernetes, ECS, etc.)
+
+### Troubleshooting
+
+- **Rate Limit Errors (429):** The script has retry logic. Run again to catch failed items.
+- **Missing Tags:** Tags are auto-created using Monday.com's API
+- **Missing Kiosk Data:** Check if kiosk exists in ILH Kiosks board with correct naming (IBF-013XXXX)
+- **Duplicate Items:** Script checks Ninja Ticket ID column to avoid duplicates
+
+## Development Notes
+
+**Completed Phases:**
+1. ✅ **API Exploration:** Verified field names and data structures
+2. ✅ **Dry Run Mode:** Preview sync without creating items
+3. ✅ **Implementation:** Full sync with error handling, retry logic, and tag auto-creation
+4. ✅ **Testing:** Successfully synced 39 tickets (August 2025 - November 2025)
 
 **Success Criteria:**
-- No more manual double data entry
-- Dashboard automatically shows ticket trends and problem kiosk patterns
-- Reliable sync with proper error handling
-- Can identify repeat offender kiosks over time
-
-Please start with Phase 1 - explore both APIs to understand available fields and data structures, then build a dry-run version I can test safely.
+- ✅ No more manual double data entry
+- ✅ Dashboard automatically shows ticket trends and problem kiosk patterns
+- ✅ Reliable sync with proper error handling
+- ✅ Can identify repeat offender kiosks over time
 
 

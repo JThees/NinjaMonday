@@ -1,0 +1,23 @@
+{
+  "name": "ninjamonday-sync",
+  "version": "1.0.0",
+  "description": "Sync tickets from NinjaRMM to Monday.com for Indiana Legal Help kiosk management",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "explore": "node src/explore.js",
+    "sync:dry-run": "node src/sync-dry-run.js",
+    "sync:test": "node src/sync-test.js",
+    "sync": "node src/sync.js",
+    "sync:update": "node src/sync-update.js",
+    "config": "node src/config-tool.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ninjaRMM", "monday.com", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
