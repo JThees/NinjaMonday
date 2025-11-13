@@ -31,9 +31,19 @@
       "description": "Ticket status"
     },
     "ninja_ticket_id": {
-      "id": "text_mkxkpphv",
+      "id": "text_mkxn628j",
       "title": "Ninja Ticket ID",
       "description": "NinjaRMM ticket ID (primary key)"
+    },
+    "service_call": {
+      "id": "dropdown_mkwznn43",
+      "title": "Service call",
+      "description": "Whether this is a service call (Yes/No dropdown)",
+      "type": "dropdown",
+      "labels": {
+        "1": "Yes",
+        "2": "No"
+      }
     }
   },
   "ninja_attributes": {
@@ -44,6 +54,10 @@
     "county": {
       "id": 10,
       "description": "County attribute in NinjaRMM"
+    },
+    "service_checkbox": {
+      "id": 80,
+      "description": "Service checkbox attribute in NinjaRMM (\"Resulted in a service call\")"
     }
   },
   "status_mapping": {

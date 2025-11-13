@@ -14,6 +14,7 @@ import {
   toShortKioskId,
   unixToDate,
   getAttributeValue,
+  getServiceCallValue,
   buildKioskLookupMap,
   formatTicketSummary
 } from './utils.js';
@@ -44,11 +45,13 @@ const CONFIG = {
     LOCATION: 'text_mkwzt5ce',
     CORE_ISSUE: 'tag_mkwzqtky',
     STATUS: 'status',
-    NINJA_TICKET_ID: 'text_mkxkpphv'
+    NINJA_TICKET_ID: 'text_mkxn628j',
+    SERVICE_CALL: 'dropdown_mkwznn43'
   },
   NINJA_ATTRIBUTES: {
     KIOSK_ID: 54,
-    COUNTY: 10
+    COUNTY: 10,
+    SERVICE_CHECKBOX: 80 // Service checkbox: "Resulted in a service call"
   },
   NINJA_BOARD_IDS: [2],
   // Only sync tickets created on or after this date
@@ -157,6 +160,12 @@ async function syncDryRun() {
       }
 
       // Build Monday.com column values
+      // Get service call value if configured
+      const serviceCallLabelId = getServiceCallValue(
+        ticket.attributeValues,
+        CONFIG.NINJA_ATTRIBUTES.SERVICE_CHECKBOX
+      );
+
       const columnValues = {
         [CONFIG.MONDAY_COLUMNS.NINJA_TICKET_ID]: ticketId,
         [CONFIG.MONDAY_COLUMNS.KIOSK]: shortKioskId || '',
@@ -165,6 +174,11 @@ async function syncDryRun() {
         [CONFIG.MONDAY_COLUMNS.LOCATION]: location || '',
         [CONFIG.MONDAY_COLUMNS.STATUS]: mondayStatus
       };
+
+      // Add service call if value is available
+      if (serviceCallLabelId !== null) {
+        columnValues[CONFIG.MONDAY_COLUMNS.SERVICE_CALL] = { labels: [serviceCallLabelId] };
+      }
 
       // Skip tags for now - Monday.com needs pre-existing tag IDs, not tag names
       // Tags can be manually added in Monday.com or we can create a tag mapping later
@@ -190,6 +204,7 @@ async function syncDryRun() {
       console.log(`  Location: ${location || 'N/A'}`);
       console.log(`  Status: ${ninjaStatus} → ${mondayStatus}`);
       console.log(`  Tags: ${tags.length > 0 ? tags.join(', ') : 'None'}`);
+      console.log(`  Service Call: ${serviceCallLabelId || 'Not Set'}`);
       console.log(`  Summary: ${ticket.summary?.substring(0, 60)}${ticket.summary?.length > 60 ? '...' : ''}`);
       console.log();
 

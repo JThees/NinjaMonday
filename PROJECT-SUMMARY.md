@@ -59,15 +59,16 @@ Configuration stored in: `config/field-mappings.json`
 ## 📊 Current Status
 
 ### Successfully Synced
-- **39 tickets** synced (Items #22-#60 in Monday.com)
+- **50 tickets** synced (Items #1-#50 in Monday.com)
 - **Date range**: July 1, 2025 - November 13, 2025
 - **6 tags auto-created**: Printer, Supplies, HTI, Desktop, Networking, Windows
+- **Service Call field**: Integrated and working
 - **All features tested and working**
 
 ### Tickets Summary
-- **With Device/Kiosk**: 23 tickets
-- **Missing Device**: 16 tickets (need manual data entry in NinjaRMM)
-- **Manually entered items**: 21 items (without Ninja Ticket ID - skipped backfill)
+- **Total synced**: 50 tickets from July 1, 2025 onwards
+- **Duplicate detection**: Working via Ninja Ticket ID
+- **Service Call tracking**: Yes/No/Not Set based on NinjaRMM checkbox
 
 ## 📁 Project Structure
 
@@ -108,6 +109,7 @@ NinjaMonday/
 - **Status** → Status (mapped via config)
 - **Location** → Location
 - **County** → County (from attributes or kiosk lookup)
+- **Service checkbox** (Attribute 80) → Service call (Yes/No dropdown)
 
 ### Status Mappings
 - Closed → Done
@@ -304,5 +306,6 @@ MONDAY_TICKETS_BOARD_ID=18246434123
 ---
 
 **Project completed**: November 13, 2025
-**Total tickets synced**: 39 (July 2025 - November 2025)
-**Success rate**: 100% (37/39 on first run, 2/2 on retry)
+**Total tickets synced**: 50 (July 2025 - November 2025)
+**Success rate**: 100% (47/50 on first run, 3/3 on retry)
+**Service Call field**: Fully integrated and operational

@@ -13,6 +13,7 @@ import {
   toShortKioskId,
   unixToDate,
   getAttributeValue,
+  getServiceCallValue,
   buildKioskLookupMap
 } from './utils.js';
 import { mapStatus } from './status-mapping.js';
@@ -39,11 +40,13 @@ const CONFIG = {
     LOCATION: 'text_mkwzt5ce',
     CORE_ISSUE: 'tag_mkwzqtky',
     STATUS: 'status',
-    NINJA_TICKET_ID: 'text_mkxkpphv'
+    NINJA_TICKET_ID: 'text_mkxn628j',
+    SERVICE_CALL: 'dropdown_mkwznn43'
   },
   NINJA_ATTRIBUTES: {
     KIOSK_ID: 54,
-    COUNTY: 10
+    COUNTY: 10,
+    SERVICE_CHECKBOX: 80 // Service checkbox: "Resulted in a service call"
   },
   NINJA_BOARD_IDS: [2],
   // Only sync tickets created on or after this date
@@ -147,6 +150,12 @@ async function testSync() {
       }
 
       // Build column values
+      // Get service call value if configured
+      const serviceCallLabelId = getServiceCallValue(
+        ticket.attributeValues,
+        CONFIG.NINJA_ATTRIBUTES.SERVICE_CHECKBOX
+      );
+
       const columnValues = {
         [CONFIG.MONDAY_COLUMNS.NINJA_TICKET_ID]: ticketId,
         [CONFIG.MONDAY_COLUMNS.KIOSK]: shortKioskId || '',
@@ -155,6 +164,11 @@ async function testSync() {
         [CONFIG.MONDAY_COLUMNS.LOCATION]: location || '',
         [CONFIG.MONDAY_COLUMNS.STATUS]: mondayStatus
       };
+
+      // Add service call if value is available
+      if (serviceCallLabelId !== null) {
+        columnValues[CONFIG.MONDAY_COLUMNS.SERVICE_CALL] = { labels: [serviceCallLabelId] };
+      }
 
       // Handle tags - create or get tag IDs
       if (tags.length > 0) {

@@ -117,4 +117,59 @@ export class NinjaClient {
 
     return allTickets;
   }
+
+  /**
+   * Get ticket form attributes (custom fields)
+   */
+  async getTicketFormAttributes() {
+    const token = await this.getAccessToken();
+
+    const response = await axios.get(
+      `${this.apiUrl}/ticketing/attributes`,
+      {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      }
+    );
+
+    return response.data;
+  }
+
+  /**
+   * Get ticket forms
+   */
+  async getTicketForms() {
+    const token = await this.getAccessToken();
+
+    const response = await axios.get(
+      `${this.apiUrl}/ticketing/ticket-form`,
+      {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      }
+    );
+
+    return response.data;
+  }
+
+  /**
+   * Get a single ticket by ID
+   * @param {number} ticketId - Ticket ID
+   */
+  async getTicket(ticketId) {
+    const token = await this.getAccessToken();
+
+    const response = await axios.get(
+      `${this.apiUrl}/ticketing/ticket/${ticketId}`,
+      {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      }
+    );
+
+    return response.data;
+  }
 }

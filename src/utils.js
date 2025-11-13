@@ -45,6 +45,31 @@ export function getAttributeValue(attributeValues, attributeId) {
 }
 
 /**
+ * Map service checkbox value to Monday.com dropdown label
+ * @param {Array} attributeValues - Array of attribute objects
+ * @param {number} attributeId - Service checkbox attribute ID
+ * @returns {string|null} Monday.com label name ("Yes" or "No") or null if not set
+ */
+export function getServiceCallValue(attributeValues, attributeId) {
+  if (!attributeId) return null; // Attribute not configured yet
+
+  const value = getAttributeValue(attributeValues, attributeId);
+  if (value === null || value === undefined) return null;
+
+  // Handle boolean or string values
+  const normalizedValue = String(value).toLowerCase().trim();
+
+  // Map to Monday.com dropdown labels ("Yes" or "No")
+  if (normalizedValue === 'true' || normalizedValue === '1' || normalizedValue === 'yes' || normalizedValue === 'checked') {
+    return 'Yes';
+  } else if (normalizedValue === 'false' || normalizedValue === '0' || normalizedValue === 'no' || normalizedValue === 'unchecked') {
+    return 'No';
+  }
+
+  return null; // Unknown value
+}
+
+/**
  * Format ticket data for logging/display
  * @param {object} ticket - Ninja ticket object
  * @returns {string} Formatted ticket summary
