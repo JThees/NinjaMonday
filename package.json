@@ -9,7 +9,9 @@
     "sync:dry-run": "node src/sync-dry-run.js",
     "sync:test": "node src/sync-test.js",
     "sync": "node src/sync.js",
+    "sync:all": "node src/sync-all.js",
     "sync:update": "node src/sync-update.js",
+    "health:update": "node src/update-health-status.js",
     "config": "node src/config-tool.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

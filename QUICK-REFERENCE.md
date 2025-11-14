@@ -4,11 +4,17 @@
 
 ### Daily Operations
 ```bash
-# Sync new tickets
+# Sync tickets + update kiosk health (RECOMMENDED)
+npm run sync:all
+
+# Sync new tickets only
 npm run sync
 
 # Update existing tickets with changes
 npm run sync:update
+
+# Update kiosk health statuses only
+npm run health:update
 
 # Preview what will sync (no changes)
 npm run sync:dry-run
@@ -42,7 +48,8 @@ Edit `config/field-mappings.json` or use `npm run config`
 ## 📊 Current Setup
 
 - **Start Date**: July 1, 2025
-- **Synced**: 50 tickets (Items #1-#50)
+- **Synced**: 52 tickets (Items #1-#52)
+- **Kiosks**: 147 with automated health status
 - **Board IDs**:
   - Kiosks: 9594374343
   - Tickets: 18246434123
@@ -81,6 +88,8 @@ MONDAY_TICKETS_BOARD_ID=18246434123
 
 ## 📈 Status Mappings
 
+### Ticket Status (NinjaRMM → Monday Tickets)
+
 | NinjaRMM | Monday.com |
 |----------|------------|
 | Closed | Done |
@@ -91,6 +100,16 @@ MONDAY_TICKETS_BOARD_ID=18246434123
 | Impending User Action | Working on it |
 
 Add more: `npm run config add-status "New" "Working on it"`
+
+### Health Status (Monday Tickets → ILH Kiosks)
+
+| Ticket Status | Kiosk Health |
+|--------------|-------------|
+| Done | HEALTHY |
+| Working on it | NEEDS_ATTENTION |
+| Working BUT | NEEDS_ATTENTION |
+| Stuck | NEEDS_ATTENTION |
+| *(no tickets)* | HEALTHY |
 
 ## 🏷️ Auto-Created Tags
 
@@ -164,9 +183,13 @@ npm run sync:update
 
 ## 🔄 Typical Workflow
 
-**Weekly**:
-1. Run `npm run sync` to create new tickets
+**Daily** (Recommended):
+1. Run `npm run sync:all` to sync tickets + update kiosk health
 2. Check Monday.com to verify
+
+**Alternative** (Manual Control):
+1. Run `npm run sync` to create new tickets
+2. Run `npm run health:update` to update kiosk statuses
 3. Run `npm run sync:update` to refresh existing data
 
 **Monthly**:

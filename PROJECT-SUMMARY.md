@@ -8,7 +8,12 @@ This project automates syncing ticket data from NinjaRMM to Monday.com for India
 
 ### Core Sync Scripts
 
-1. **`npm run sync`** - Full sync (creates new items)
+1. **`npm run sync:all`** - Combined workflow (RECOMMENDED)
+   - Syncs tickets from NinjaRMM to Monday Tickets board
+   - Then updates ILH Kiosks board health statuses
+   - Runs both operations in sequence automatically
+
+2. **`npm run sync`** - Full sync (creates new items)
    - Syncs tickets from July 1, 2025 onward
    - Creates consecutive numbered items in Monday.com
    - Auto-creates tags from NinjaRMM
@@ -16,16 +21,22 @@ This project automates syncing ticket data from NinjaRMM to Monday.com for India
    - Duplicate detection via Ninja Ticket ID
    - Rate limiting & retry logic
 
-2. **`npm run sync:update`** - Update existing items
+3. **`npm run sync:update`** - Update existing items
    - Updates existing Monday items with latest NinjaRMM data
    - Compares fields and only updates when changed
    - Updates: Status, Tags, Kiosk ID, County, Location, Date
 
-3. **`npm run sync:dry-run`** - Preview mode
+4. **`npm run health:update`** - Update kiosk health statuses
+   - Reads tickets from Monday Tickets board
+   - Groups by kiosk, finds most recent ticket per kiosk
+   - Updates ILH Kiosks board health status accordingly
+   - Only updates when status would change
+
+5. **`npm run sync:dry-run`** - Preview mode
    - Shows what would be synced without making changes
    - Generates preview JSON file
 
-4. **`npm run sync:test`** - Test with 3 items
+6. **`npm run sync:test`** - Test with 3 items
    - Safe testing before full sync
 
 ### Configuration Tool
@@ -59,16 +70,19 @@ Configuration stored in: `config/field-mappings.json`
 ## 📊 Current Status
 
 ### Successfully Synced
-- **50 tickets** synced (Items #1-#50 in Monday.com)
-- **Date range**: July 1, 2025 - November 13, 2025
+- **52 tickets** synced (Items #1-#52 in Monday.com)
+- **147 kiosks** with automated health status
+- **Date range**: July 1, 2025 - November 14, 2025
 - **6 tags auto-created**: Printer, Supplies, HTI, Desktop, Networking, Windows
 - **Service Call field**: Integrated and working
+- **Health Status automation**: Operational
 - **All features tested and working**
 
 ### Tickets Summary
-- **Total synced**: 50 tickets from July 1, 2025 onwards
+- **Total synced**: 52 tickets from July 1, 2025 onwards
 - **Duplicate detection**: Working via Ninja Ticket ID
 - **Service Call tracking**: Yes/No/Not Set based on NinjaRMM checkbox
+- **Health Status**: Automatically updated based on most recent ticket per kiosk
 
 ## 📁 Project Structure
 
@@ -111,7 +125,7 @@ NinjaMonday/
 - **County** → County (from attributes or kiosk lookup)
 - **Service checkbox** (Attribute 80) → Service call (Yes/No dropdown)
 
-### Status Mappings
+### Ticket Status Mappings (NinjaRMM → Monday Tickets)
 - Closed → Done
 - Waiting → Stuck
 - Supplies Ordered → Done
@@ -119,6 +133,14 @@ NinjaMonday/
 - Paused → Working BUT
 - Impending User Action → Working on it
 - *(Default: "Working on it")*
+
+### Health Status Mappings (Monday Tickets → ILH Kiosks)
+- Done → HEALTHY
+- Working on it → NEEDS_ATTENTION
+- Working BUT → NEEDS_ATTENTION
+- Stuck → NEEDS_ATTENTION
+- *(No tickets → HEALTHY)*
+- **Logic**: Most recent ticket (by date) determines kiosk health
 
 ### Smart Features
 1. **Kiosk Enrichment**: Looks up county/location from ILH Kiosks board
@@ -154,11 +176,13 @@ npm run sync
 
 ### Daily Usage
 ```bash
-# Sync new tickets
-npm run sync
+# Sync tickets + update kiosk health (RECOMMENDED)
+npm run sync:all
 
-# Update existing tickets
-npm run sync:update
+# Or run separately:
+npm run sync              # Sync new tickets
+npm run health:update     # Update kiosk health
+npm run sync:update       # Update existing tickets
 
 # View configuration
 npm run config
@@ -183,10 +207,12 @@ See `DEPLOYMENT.md` for detailed instructions.
 ✅ **No more manual double data entry**
 ✅ **Dashboard automatically shows ticket trends**
 ✅ **Identify problem kiosks and patterns**
+✅ **Kiosk health status automatically updated**
 ✅ **Reliable sync with error handling**
 ✅ **Scalable serverless deployment**
 ✅ **Easy configuration management**
 ✅ **Automated tag creation**
+✅ **Combined workflow for efficiency**
 
 ## 🔧 Maintenance
 
@@ -305,7 +331,9 @@ MONDAY_TICKETS_BOARD_ID=18246434123
 
 ---
 
-**Project completed**: November 13, 2025
-**Total tickets synced**: 50 (July 2025 - November 2025)
-**Success rate**: 100% (47/50 on first run, 3/3 on retry)
+**Project completed**: November 14, 2025
+**Total tickets synced**: 52 (July 2025 - November 2025)
+**Kiosks automated**: 147 with health status tracking
+**Success rate**: 100%
 **Service Call field**: Fully integrated and operational
+**Health Status automation**: Fully integrated and operational

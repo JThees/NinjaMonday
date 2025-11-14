@@ -52,6 +52,9 @@ See `.env.example` for the required format. Copy it to `.env` and fill in your a
 ### Available Scripts
 
 ```bash
+# Sync tickets + update kiosk health (RECOMMENDED)
+npm run sync:all
+
 # Preview what will be synced (no changes to Monday.com)
 npm run sync:dry-run
 
@@ -63,6 +66,9 @@ npm run sync
 
 # Update existing Monday items with latest NinjaRMM data
 npm run sync:update
+
+# Update kiosk health statuses based on tickets
+npm run health:update
 
 # View/manage field mappings and configuration
 npm run config
@@ -78,6 +84,7 @@ npm run config update-date 2025-06-01T00:00:00Z
 4. **County Fallback**: Extracts county from NinjaRMM attribute values when kiosk not found in ILH Kiosks board
 5. **Consecutive Numbering**: Items are named with consecutive integers (e.g., "22", "23", "24")
 6. **Rate Limiting**: Built-in retry logic with exponential backoff for API rate limits
+7. **Health Status Automation**: Automatically updates ILH Kiosks board health status based on most recent ticket per kiosk
 
 ### First-Time Setup
 
@@ -101,7 +108,7 @@ npm run config update-date 2025-06-01T00:00:00Z
 - County (looked up by kiosk ID)
 - Location (looked up by kiosk ID, overwrites Ninja location if found)
 
-**Status Mapping:**
+**Ticket Status Mapping (NinjaRMM → Monday Tickets):**
 - Closed → Done
 - Waiting → Stuck
 - Supplies Ordered → Done
@@ -109,6 +116,15 @@ npm run config update-date 2025-06-01T00:00:00Z
 - Paused → Working BUT
 - Impending User Action → Working on it
 - *(all others default to "Working on it")*
+
+**Health Status Mapping (Monday Tickets → ILH Kiosks):**
+- Done → HEALTHY
+- Working on it → NEEDS_ATTENTION
+- Working BUT → NEEDS_ATTENTION
+- Stuck → NEEDS_ATTENTION
+- *(no tickets) → HEALTHY*
+
+**Health Status Logic:** Most recent ticket (by date) determines kiosk health status.
 
 ### Configuration Management
 
@@ -160,12 +176,15 @@ Configuration is stored in `config/field-mappings.json`.
 2. ✅ **Dry Run Mode:** Preview sync without creating items
 3. ✅ **Implementation:** Full sync with error handling, retry logic, and tag auto-creation
 4. ✅ **Service Call Integration:** NinjaRMM checkbox field synced to Monday.com dropdown
-5. ✅ **Testing:** Successfully synced 50 tickets (July 2025 - November 2025)
+5. ✅ **Health Status Automation:** Kiosk health status auto-updated based on ticket status
+6. ✅ **Testing:** Successfully synced 52 tickets and automated 147 kiosk health statuses
 
 **Success Criteria:**
 - ✅ No more manual double data entry
 - ✅ Dashboard automatically shows ticket trends and problem kiosk patterns
 - ✅ Reliable sync with proper error handling
 - ✅ Can identify repeat offender kiosks over time
+- ✅ Kiosk health status automatically reflects current ticket status
+- ✅ Combined workflow runs ticket sync + health update in one command
 
 

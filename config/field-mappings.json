@@ -74,5 +74,16 @@
     "delay_between_items_ms": 500,
     "delay_between_updates_ms": 500,
     "retry_attempts": 3
+  },
+  "health_status_mapping": {
+    "Done": "HEALTHY",
+    "Working on it": "NEEDS_ATTENTION",
+    "Working BUT": "NEEDS_ATTENTION",
+    "Stuck": "NEEDS_ATTENTION",
+    "": "UNKNOWN"
+  },
+  "kiosk_health_column": {
+    "id": "color_mkswdp57",
+    "title": "Health Status"
   }
 }

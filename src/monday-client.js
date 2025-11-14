@@ -232,4 +232,29 @@ export class MondayClient {
     const data = await this.query(queryString);
     return data.create_item;
   }
+
+  /**
+   * Update column values for an existing item
+   * @param {string} boardId - Board ID
+   * @param {string} itemId - Item ID to update
+   * @param {object} columnValues - Column values object
+   */
+  async updateItem(boardId, itemId, columnValues) {
+    const columnValuesJson = JSON.stringify(columnValues)
+      .replace(/"/g, '\\"');
+
+    const queryString = `mutation {
+      change_multiple_column_values(
+        board_id: ${boardId},
+        item_id: ${itemId},
+        column_values: "${columnValuesJson}"
+      ) {
+        id
+        name
+      }
+    }`;
+
+    const data = await this.query(queryString);
+    return data.change_multiple_column_values;
+  }
 }

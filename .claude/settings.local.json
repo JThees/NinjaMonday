@@ -21,7 +21,8 @@
       "Bash(npm run sync:dry-run:*)",
       "Bash(npm run sync:test:*)",
       "WebFetch(domain:developer.monday.com)",
-      "Bash(npm run sync:*)"
+      "Bash(npm run sync:*)",
+      "Bash(npm run sync:all:*)"
     ],
     "deny": [],
     "ask": []

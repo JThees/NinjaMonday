@@ -30,6 +30,8 @@ npm run sync
 
 - ✅ **Full sync** - Create new Monday items from NinjaRMM tickets
 - ✅ **Update sync** - Update existing Monday items with latest data
+- ✅ **Health status automation** - Auto-update kiosk health based on ticket status
+- ✅ **Combined workflow** - Run ticket sync + health update in one command
 - ✅ **Dry run mode** - Preview changes without modifying data
 - ✅ **Auto tag creation** - Automatically creates Monday.com tags
 - ✅ **Smart enrichment** - Enriches data from ILH Kiosks board
@@ -39,16 +41,20 @@ npm run sync
 
 ## 📊 Current Status
 
-- **50 tickets synced** (July 2025 - November 2025)
+- **52 tickets synced** (July 2025 - November 2025)
+- **147 kiosks** health status automated
 - **6 tags auto-created**
 - **100% success rate**
 - **Service Call field** integrated and working
+- **Health status automation** operational
 
 ## 🚀 Available Commands
 
 ```bash
+npm run sync:all          # Sync tickets + update health (RECOMMENDED)
 npm run sync              # Sync new tickets to Monday.com
 npm run sync:update       # Update existing Monday items
+npm run health:update     # Update kiosk health statuses only
 npm run sync:dry-run      # Preview without changes
 npm run sync:test         # Test with 3 items only
 npm run config            # View/manage configuration
@@ -107,7 +113,7 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for full guide.
 | Attribute: County | County |
 | Attribute: Service (checkbox) | Service call (Yes/No) |
 
-### Status Mappings
+### Ticket Status Mappings (NinjaRMM → Monday Tickets)
 
 | NinjaRMM | Monday.com |
 |----------|------------|
@@ -117,6 +123,20 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for full guide.
 | Pending Vendor | Working on it |
 | Paused | Working BUT |
 | Impending User Action | Working on it |
+
+### Health Status Automation (Monday Tickets → ILH Kiosks)
+
+Kiosk health status is automatically updated based on the most recent ticket for each kiosk:
+
+| Ticket Status | Kiosk Health Status |
+|--------------|---------------------|
+| Done | HEALTHY |
+| Working on it | NEEDS_ATTENTION |
+| Working BUT | NEEDS_ATTENTION |
+| Stuck | NEEDS_ATTENTION |
+| *(no tickets)* | HEALTHY |
+
+**Logic:** Most recent ticket (by date) determines the kiosk's health status.
 
 ## 🛟 Troubleshooting
 
