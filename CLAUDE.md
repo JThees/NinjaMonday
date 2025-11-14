@@ -33,13 +33,15 @@ See `.env.example` for the required format. Copy it to `.env` and fill in your a
 5. **No Filtering:** Sync all tickets regardless of status for complete trend analysis
 6. **Error Handling:** Log when kiosks not found in ILH Kiosks board, continue processing
 
-**Field Mapping (some field names need API verification):**
-- Ninja Ticket ID → Monday "Ninja Ticket ID" (custom field)
-- Ninja Device/Kiosk (converted to short form) → Monday "Kiosk"
-- Ninja creation date → Monday "Date"
-- Ninja Tags → Monday "Core issue"
-- Ninja Status → Monday "Status"
-- County/Location from ILH Kiosks board lookup → Monday "County" and "Location"
+**Field Mapping:**
+- Ninja Ticket ID → Monday "Ninja Ticket ID" (text_mkxn628j)
+- Ninja Device/Kiosk (converted to short form) → Monday "Kiosk" (text_mkx0wqmq)
+- Ninja creation date → Monday "Date" (date4)
+- Ninja Tags → Monday "Core issue" (tag_mkwzqtky)
+- Ninja Status → Monday "Status" (status)
+- Ninja Attribute 10 (County) → Monday "County" (text_mkwzhc6k)
+- Ninja Attribute 80 (Service checkbox) → Monday "Service call" (dropdown_mkwznn43)
+- County/Location from ILH Kiosks board lookup → Monday "County" and "Location" (text_mkwzt5ce)
 
 ## Project Status
 
@@ -157,7 +159,8 @@ Configuration is stored in `config/field-mappings.json`.
 1. ✅ **API Exploration:** Verified field names and data structures
 2. ✅ **Dry Run Mode:** Preview sync without creating items
 3. ✅ **Implementation:** Full sync with error handling, retry logic, and tag auto-creation
-4. ✅ **Testing:** Successfully synced 39 tickets (August 2025 - November 2025)
+4. ✅ **Service Call Integration:** NinjaRMM checkbox field synced to Monday.com dropdown
+5. ✅ **Testing:** Successfully synced 50 tickets (July 2025 - November 2025)
 
 **Success Criteria:**
 - ✅ No more manual double data entry

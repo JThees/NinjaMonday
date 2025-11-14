@@ -20,7 +20,8 @@
       "Bash(TOKEN=\"I-Nkofh0wQYywC39dgdgJP8AhQN2hyi29ZKWcHnIgXI.mzPDvho7U5q2WVSorb4G5tjS43-Rh8XZeHCw6UD3MN0\")",
       "Bash(npm run sync:dry-run:*)",
       "Bash(npm run sync:test:*)",
-      "WebFetch(domain:developer.monday.com)"
+      "WebFetch(domain:developer.monday.com)",
+      "Bash(npm run sync:*)"
     ],
     "deny": [],
     "ask": []
